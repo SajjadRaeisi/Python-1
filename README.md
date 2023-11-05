@@ -1,2 +1,9 @@
-for x in "sajad":
-  print(x) 
+# عدد را از کاربر دریافت می‌کنیم
+number = int(input("لطفا یک عدد وارد کنید: "))
+
+# بررسی می‌کنیم که آیا عدد زوج یا فرد است
+if number % 2 == 0:
+    print(f"{number} یک عدد زوج است.")
+else:
+    print(f"{number} یک عدد فرد است.")
+
