@@ -1,0 +1,6 @@
+print('test')
+#casting
+x=int('3')
+#slicing
+s='Ali'
+print([0])
